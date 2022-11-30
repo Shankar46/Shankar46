@@ -1,0 +1,12 @@
+a=input("enter the value of a")
+b=input("enter the value of b")
+c=input("enter the value of c")
+d=input("enter the value of d")
+if(a>b or a>c or a>d):
+  print("a is big")
+  if(b>a or b>c or b>d):
+    print("b is big")
+    if(c>a or c>b or c>d):
+      print("c is big")
+else:
+    print("d is big")
