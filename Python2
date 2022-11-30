@@ -1,0 +1,25 @@
+from traitlets.config.loader import HasTraits
+#program to generate employee tax.
+empno=(input("enter the number"))
+empname=(input("enter the name"))
+empdesig=(input("enter the desig"))
+salary=int(input("enter the basic salary"))
+da=int(input("daily allowance"))
+ta=int(input("travelling allowance"))
+hra=int(input("hpuse rental allowance"))
+totsalary=int(salary+da+ta+hra)
+if(totsalary>100000):
+  tax=totsalary*10/100
+  print(tax)
+elif(totsalary>50000):
+   tax=tottsalary*7/100
+   print(tax)
+elif (totsalary>40000):
+  tax=totsalary*4/100
+  print(tax)
+elif(totsalary>20000):
+  tax=totsalary*2/100
+  print(tax)
+elif(totsalary<20000):
+  tax=totsalary
+  print(tax)
