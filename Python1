@@ -1,0 +1,11 @@
+sno=(input("emter the number"))
+sname=(input("enter the name"))
+sngroup=(input("enter the group"))
+s1=int(input("enter the marks"))
+s2=int(input("enter the marks"))
+s3=int(input("enter the marks"))
+total=int(s1+s2+s3)
+if(s1>=35 and s2>=35 and s3>=35):
+  print("Pass")
+else:
+  print("Fail")
