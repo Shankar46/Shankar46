@@ -1,0 +1,19 @@
+cno=input("Enter the meternumber")
+cname=input("enter the coustmer name")
+cadd=input("enter the coustmer address")
+units=int(input("enter the number of units"))
+if(units>=0 and units<=30):
+  bill=10+20+(units*1.95)
+elif(units>=31 and units<=75):
+  bill=10+30+(units*3)
+elif(units>=76 and units<=125):
+  bill=10+45+(units*4.5)
+elif(units>=126 and units<=225):
+  bill=10+55+(units*6)
+else:
+  bill=10+60+(units*7.5)  
+print("coustmer meternumber",cno)
+print("coustmer name",cname)
+print("coustmer address",cadd)
+print("coustmer consume units",units)
+print("total amount",bill)
