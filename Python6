@@ -1,0 +1,30 @@
+'''
+#way-1
+def vote_to(n):
+  if(n>=18):
+    print("Eligible")
+  else:
+    print("Not")  
+n=int(input())
+vote_to((n))  
+
+#way-2
+def vote_to(n):
+  if(n>=18):
+    return True
+  else:
+    return False  
+n=int(input())
+print(vote_to(n)) 
+''' 
+#way-3
+def vot_to(n):
+  if(n>=18):
+    return True
+  else:
+    return False 
+n=int(input())
+if(vot_to(n)):
+  print("Eligible")
+else:
+  print("NOT")
