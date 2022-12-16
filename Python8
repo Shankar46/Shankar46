@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+nl=[]
+pl=[]
+for i in range(0,n):
+    if(l[i]>0):
+        pl.append(l[i])
+    else:
+        nl.append(l[i])
+nl.extend(pl)
+print(nl,end=" ")
